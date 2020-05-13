@@ -1,116 +1,191 @@
-gdjs.WinMenuCode = {};
-gdjs.WinMenuCode.GDSilverCountObjects1= [];
-gdjs.WinMenuCode.GDSilverCountObjects2= [];
-gdjs.WinMenuCode.GDDepthObjects1= [];
-gdjs.WinMenuCode.GDDepthObjects2= [];
-gdjs.WinMenuCode.GDForegroundObjects1= [];
-gdjs.WinMenuCode.GDForegroundObjects2= [];
-gdjs.WinMenuCode.GDMossObjects1= [];
-gdjs.WinMenuCode.GDMossObjects2= [];
-gdjs.WinMenuCode.GDGlassObjects1= [];
-gdjs.WinMenuCode.GDGlassObjects2= [];
-gdjs.WinMenuCode.GDLadderObjects1= [];
-gdjs.WinMenuCode.GDLadderObjects2= [];
-gdjs.WinMenuCode.GDDoorwayBackObjects1= [];
-gdjs.WinMenuCode.GDDoorwayBackObjects2= [];
-gdjs.WinMenuCode.GDDoorwayObjects1= [];
-gdjs.WinMenuCode.GDDoorwayObjects2= [];
-gdjs.WinMenuCode.GDDoorLightVerticalObjects1= [];
-gdjs.WinMenuCode.GDDoorLightVerticalObjects2= [];
-gdjs.WinMenuCode.GDDoorLightHorizontalObjects1= [];
-gdjs.WinMenuCode.GDDoorLightHorizontalObjects2= [];
-gdjs.WinMenuCode.GDDoorHeavyVerticalObjects1= [];
-gdjs.WinMenuCode.GDDoorHeavyVerticalObjects2= [];
-gdjs.WinMenuCode.GDDoorHeavyHorizontalObjects1= [];
-gdjs.WinMenuCode.GDDoorHeavyHorizontalObjects2= [];
-gdjs.WinMenuCode.GDCrystalObjects1= [];
-gdjs.WinMenuCode.GDCrystalObjects2= [];
-gdjs.WinMenuCode.GDButtonObjects1= [];
-gdjs.WinMenuCode.GDButtonObjects2= [];
-gdjs.WinMenuCode.GDDarknessObjects1= [];
-gdjs.WinMenuCode.GDDarknessObjects2= [];
-gdjs.WinMenuCode.GDSunlightSourceObjects1= [];
-gdjs.WinMenuCode.GDSunlightSourceObjects2= [];
-gdjs.WinMenuCode.GDSunlightObjects1= [];
-gdjs.WinMenuCode.GDSunlightObjects2= [];
-gdjs.WinMenuCode.GDMirrorStaticObjects1= [];
-gdjs.WinMenuCode.GDMirrorStaticObjects2= [];
-gdjs.WinMenuCode.GDMirrorObjects1= [];
-gdjs.WinMenuCode.GDMirrorObjects2= [];
-gdjs.WinMenuCode.GDSphereStaticObjects1= [];
-gdjs.WinMenuCode.GDSphereStaticObjects2= [];
-gdjs.WinMenuCode.GDSphereObjects1= [];
-gdjs.WinMenuCode.GDSphereObjects2= [];
-gdjs.WinMenuCode.GDPlayerObjects1= [];
-gdjs.WinMenuCode.GDPlayerObjects2= [];
-gdjs.WinMenuCode.GDSilverObjects1= [];
-gdjs.WinMenuCode.GDSilverObjects2= [];
-gdjs.WinMenuCode.GDVampireObjects1= [];
-gdjs.WinMenuCode.GDVampireObjects2= [];
-gdjs.WinMenuCode.GDleftObjects1= [];
-gdjs.WinMenuCode.GDleftObjects2= [];
-gdjs.WinMenuCode.GDrightObjects1= [];
-gdjs.WinMenuCode.GDrightObjects2= [];
-gdjs.WinMenuCode.GDBackgroundObjects1= [];
-gdjs.WinMenuCode.GDBackgroundObjects2= [];
-gdjs.WinMenuCode.GDTitleObjects1= [];
-gdjs.WinMenuCode.GDTitleObjects2= [];
-gdjs.WinMenuCode.GDStartObjects1= [];
-gdjs.WinMenuCode.GDStartObjects2= [];
-gdjs.WinMenuCode.GDQuitObjects1= [];
-gdjs.WinMenuCode.GDQuitObjects2= [];
-gdjs.WinMenuCode.GDScoreObjects1= [];
-gdjs.WinMenuCode.GDScoreObjects2= [];
+gdjs.DeathMenuCode = {};
+gdjs.DeathMenuCode.GDSilverCountObjects1= [];
+gdjs.DeathMenuCode.GDSilverCountObjects2= [];
+gdjs.DeathMenuCode.GDDepthObjects1= [];
+gdjs.DeathMenuCode.GDDepthObjects2= [];
+gdjs.DeathMenuCode.GDForegroundObjects1= [];
+gdjs.DeathMenuCode.GDForegroundObjects2= [];
+gdjs.DeathMenuCode.GDMossObjects1= [];
+gdjs.DeathMenuCode.GDMossObjects2= [];
+gdjs.DeathMenuCode.GDFogObjects1= [];
+gdjs.DeathMenuCode.GDFogObjects2= [];
+gdjs.DeathMenuCode.GDGlassObjects1= [];
+gdjs.DeathMenuCode.GDGlassObjects2= [];
+gdjs.DeathMenuCode.GDLadderObjects1= [];
+gdjs.DeathMenuCode.GDLadderObjects2= [];
+gdjs.DeathMenuCode.GDDoorwayBackObjects1= [];
+gdjs.DeathMenuCode.GDDoorwayBackObjects2= [];
+gdjs.DeathMenuCode.GDDoorwayObjects1= [];
+gdjs.DeathMenuCode.GDDoorwayObjects2= [];
+gdjs.DeathMenuCode.GDDoorLightVerticalObjects1= [];
+gdjs.DeathMenuCode.GDDoorLightVerticalObjects2= [];
+gdjs.DeathMenuCode.GDDoorLightHorizontalObjects1= [];
+gdjs.DeathMenuCode.GDDoorLightHorizontalObjects2= [];
+gdjs.DeathMenuCode.GDDoorHeavyVerticalObjects1= [];
+gdjs.DeathMenuCode.GDDoorHeavyVerticalObjects2= [];
+gdjs.DeathMenuCode.GDDoorHeavyHorizontalObjects1= [];
+gdjs.DeathMenuCode.GDDoorHeavyHorizontalObjects2= [];
+gdjs.DeathMenuCode.GDCrystalObjects1= [];
+gdjs.DeathMenuCode.GDCrystalObjects2= [];
+gdjs.DeathMenuCode.GDDarknessObjects1= [];
+gdjs.DeathMenuCode.GDDarknessObjects2= [];
+gdjs.DeathMenuCode.GDLanternObjects1= [];
+gdjs.DeathMenuCode.GDLanternObjects2= [];
+gdjs.DeathMenuCode.GDSunlightSourceObjects1= [];
+gdjs.DeathMenuCode.GDSunlightSourceObjects2= [];
+gdjs.DeathMenuCode.GDSunlightObjects1= [];
+gdjs.DeathMenuCode.GDSunlightObjects2= [];
+gdjs.DeathMenuCode.GDMirrorStaticObjects1= [];
+gdjs.DeathMenuCode.GDMirrorStaticObjects2= [];
+gdjs.DeathMenuCode.GDMirrorObjects1= [];
+gdjs.DeathMenuCode.GDMirrorObjects2= [];
+gdjs.DeathMenuCode.GDSphereStaticObjects1= [];
+gdjs.DeathMenuCode.GDSphereStaticObjects2= [];
+gdjs.DeathMenuCode.GDSphereObjects1= [];
+gdjs.DeathMenuCode.GDSphereObjects2= [];
+gdjs.DeathMenuCode.GDPlayerObjects1= [];
+gdjs.DeathMenuCode.GDPlayerObjects2= [];
+gdjs.DeathMenuCode.GDVampireObjects1= [];
+gdjs.DeathMenuCode.GDVampireObjects2= [];
+gdjs.DeathMenuCode.GDSilverObjects1= [];
+gdjs.DeathMenuCode.GDSilverObjects2= [];
+gdjs.DeathMenuCode.GDUI_95ExitObjects1= [];
+gdjs.DeathMenuCode.GDUI_95ExitObjects2= [];
+gdjs.DeathMenuCode.GDUI_95InteractObjects1= [];
+gdjs.DeathMenuCode.GDUI_95InteractObjects2= [];
+gdjs.DeathMenuCode.GDUI_95JumpObjects1= [];
+gdjs.DeathMenuCode.GDUI_95JumpObjects2= [];
+gdjs.DeathMenuCode.GDUI_95Dir_95RightObjects1= [];
+gdjs.DeathMenuCode.GDUI_95Dir_95RightObjects2= [];
+gdjs.DeathMenuCode.GDUI_95Dir_95LeftObjects1= [];
+gdjs.DeathMenuCode.GDUI_95Dir_95LeftObjects2= [];
+gdjs.DeathMenuCode.GDUI_95Mir_95RightObjects1= [];
+gdjs.DeathMenuCode.GDUI_95Mir_95RightObjects2= [];
+gdjs.DeathMenuCode.GDUI_95Mir_95LeftObjects1= [];
+gdjs.DeathMenuCode.GDUI_95Mir_95LeftObjects2= [];
+gdjs.DeathMenuCode.GDrightObjects1= [];
+gdjs.DeathMenuCode.GDrightObjects2= [];
+gdjs.DeathMenuCode.GDleftObjects1= [];
+gdjs.DeathMenuCode.GDleftObjects2= [];
+gdjs.DeathMenuCode.GDBackgroundObjects1= [];
+gdjs.DeathMenuCode.GDBackgroundObjects2= [];
+gdjs.DeathMenuCode.GDTitleObjects1= [];
+gdjs.DeathMenuCode.GDTitleObjects2= [];
+gdjs.DeathMenuCode.GDStartObjects1= [];
+gdjs.DeathMenuCode.GDStartObjects2= [];
+gdjs.DeathMenuCode.GDQuitObjects1= [];
+gdjs.DeathMenuCode.GDQuitObjects2= [];
 
-gdjs.WinMenuCode.conditionTrue_0 = {val:false};
-gdjs.WinMenuCode.condition0IsTrue_0 = {val:false};
-gdjs.WinMenuCode.condition1IsTrue_0 = {val:false};
+gdjs.DeathMenuCode.conditionTrue_0 = {val:false};
+gdjs.DeathMenuCode.condition0IsTrue_0 = {val:false};
+gdjs.DeathMenuCode.condition1IsTrue_0 = {val:false};
+gdjs.DeathMenuCode.condition2IsTrue_0 = {val:false};
+gdjs.DeathMenuCode.conditionTrue_1 = {val:false};
+gdjs.DeathMenuCode.condition0IsTrue_1 = {val:false};
+gdjs.DeathMenuCode.condition1IsTrue_1 = {val:false};
+gdjs.DeathMenuCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.WinMenuCode.GDStartObjects1});gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.WinMenuCode.GDStartObjects1});gdjs.WinMenuCode.eventsList0x8157b4 = function(runtimeScene) {
+gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.DeathMenuCode.GDStartObjects1});gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.DeathMenuCode.GDStartObjects1});gdjs.DeathMenuCode.userFunc0x8b3fd8 = function(runtimeScene) {
+"use strict";
+
+if(runtimeScene.getGame().getInputManager().isMouseButtonPressed(gdjs.InputManager.MOUSE_LEFT_BUTTON)){
+
+    let lvl = runtimeScene.getGame().getVariables()._variables.items&&runtimeScene.getGame().getVariables()._variables.items.Level._value;
+
+    console.log(lvl);
+    
+    runtimeScene.requestChange(gdjs.RuntimeScene.REPLACE_SCENE, (lvl>0 ? "Level_"+lvl : "StartMenu"));
+
+}
+};
+gdjs.DeathMenuCode.eventsList0x8b3e6c = function(runtimeScene) {
 
 {
 
 
-gdjs.WinMenuCode.condition0IsTrue_0.val = false;
+gdjs.DeathMenuCode.userFunc0x8b3fd8(runtimeScene);
+
+}
+
+
 {
-gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.WinMenuCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Prototype", false);
+
+
+gdjs.DeathMenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.DeathMenuCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "", false);
 }}
 
 }
 
 
-}; //End of gdjs.WinMenuCode.eventsList0x8157b4
-gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.WinMenuCode.GDQuitObjects1});gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.WinMenuCode.GDQuitObjects1});gdjs.WinMenuCode.eventsList0x816184 = function(runtimeScene) {
+}; //End of gdjs.DeathMenuCode.eventsList0x8b3e6c
+gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.DeathMenuCode.GDQuitObjects1});gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.DeathMenuCode.GDQuitObjects1});gdjs.DeathMenuCode.eventsList0x8b4504 = function(runtimeScene) {
 
 {
 
 
-gdjs.WinMenuCode.condition0IsTrue_0.val = false;
+gdjs.DeathMenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.WinMenuCode.condition0IsTrue_0.val) {
+gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.DeathMenuCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "StartMenu", false);
 }}
 
 }
 
 
-}; //End of gdjs.WinMenuCode.eventsList0x816184
-gdjs.WinMenuCode.eventsList0x5b6e18 = function(runtimeScene) {
+}; //End of gdjs.DeathMenuCode.eventsList0x8b4504
+gdjs.DeathMenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
 
 
-gdjs.WinMenuCode.condition0IsTrue_0.val = false;
+gdjs.DeathMenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-}if (gdjs.WinMenuCode.condition0IsTrue_0.val) {
-gdjs.WinMenuCode.GDScoreObjects1.createFrom(runtimeScene.getObjects("Score"));
-{for(var i = 0, len = gdjs.WinMenuCode.GDScoreObjects1.length ;i < len;++i) {
-    gdjs.WinMenuCode.GDScoreObjects1[i].setString("Depth = " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) / 25) + "\n\nSilver = " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)) + " x 5 = " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) * 5) + "\n\nScore = " + gdjs.evtTools.common.toString((gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) / 25) + (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) * 5)));
+gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.DeathMenuCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "_SFX\\333832__nick121087__demonic-woman-scream.wav", false, 100, 2);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "scream");
+}}
+
+}
+
+
+{
+
+
+gdjs.DeathMenuCode.condition0IsTrue_0.val = false;
+gdjs.DeathMenuCode.condition1IsTrue_0.val = false;
+{
+gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 2, "scream");
+}if ( gdjs.DeathMenuCode.condition0IsTrue_0.val ) {
+{
+{gdjs.DeathMenuCode.conditionTrue_1 = gdjs.DeathMenuCode.condition1IsTrue_0;
+gdjs.DeathMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9124628);
+}
+}}
+if (gdjs.DeathMenuCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playMusic(runtimeScene, "_SFX\\234260__tyops__scary-piano-in-church.wav", true, 100, 1);
+}}
+
+}
+
+
+{
+
+gdjs.DeathMenuCode.GDStartObjects1.createFrom(runtimeScene.getObjects("Start"));
+
+gdjs.DeathMenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDStartObjects1Objects, runtimeScene, true, true);
+}if (gdjs.DeathMenuCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.DeathMenuCode.GDStartObjects1 */
+{for(var i = 0, len = gdjs.DeathMenuCode.GDStartObjects1.length ;i < len;++i) {
+    gdjs.DeathMenuCode.GDStartObjects1[i].setBold(false);
 }
 }}
 
@@ -119,36 +194,19 @@ gdjs.WinMenuCode.GDScoreObjects1.createFrom(runtimeScene.getObjects("Score"));
 
 {
 
-gdjs.WinMenuCode.GDStartObjects1.createFrom(runtimeScene.getObjects("Start"));
+gdjs.DeathMenuCode.GDStartObjects1.createFrom(runtimeScene.getObjects("Start"));
 
-gdjs.WinMenuCode.condition0IsTrue_0.val = false;
+gdjs.DeathMenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDStartObjects1Objects, runtimeScene, true, true);
-}if (gdjs.WinMenuCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.WinMenuCode.GDStartObjects1 */
-{for(var i = 0, len = gdjs.WinMenuCode.GDStartObjects1.length ;i < len;++i) {
-    gdjs.WinMenuCode.GDStartObjects1[i].setBold(false);
-}
-}}
-
-}
-
-
-{
-
-gdjs.WinMenuCode.GDStartObjects1.createFrom(runtimeScene.getObjects("Start"));
-
-gdjs.WinMenuCode.condition0IsTrue_0.val = false;
-{
-gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDStartObjects1Objects, runtimeScene, true, false);
-}if (gdjs.WinMenuCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.WinMenuCode.GDStartObjects1 */
-{for(var i = 0, len = gdjs.WinMenuCode.GDStartObjects1.length ;i < len;++i) {
-    gdjs.WinMenuCode.GDStartObjects1[i].setBold(true);
+gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDStartObjects1Objects, runtimeScene, true, false);
+}if (gdjs.DeathMenuCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.DeathMenuCode.GDStartObjects1 */
+{for(var i = 0, len = gdjs.DeathMenuCode.GDStartObjects1.length ;i < len;++i) {
+    gdjs.DeathMenuCode.GDStartObjects1[i].setBold(true);
 }
 }
 { //Subevents
-gdjs.WinMenuCode.eventsList0x8157b4(runtimeScene);} //End of subevents
+gdjs.DeathMenuCode.eventsList0x8b3e6c(runtimeScene);} //End of subevents
 }
 
 }
@@ -156,15 +214,15 @@ gdjs.WinMenuCode.eventsList0x8157b4(runtimeScene);} //End of subevents
 
 {
 
-gdjs.WinMenuCode.GDQuitObjects1.createFrom(runtimeScene.getObjects("Quit"));
+gdjs.DeathMenuCode.GDQuitObjects1.createFrom(runtimeScene.getObjects("Quit"));
 
-gdjs.WinMenuCode.condition0IsTrue_0.val = false;
+gdjs.DeathMenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDQuitObjects1Objects, runtimeScene, true, true);
-}if (gdjs.WinMenuCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.WinMenuCode.GDQuitObjects1 */
-{for(var i = 0, len = gdjs.WinMenuCode.GDQuitObjects1.length ;i < len;++i) {
-    gdjs.WinMenuCode.GDQuitObjects1[i].setBold(false);
+gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDQuitObjects1Objects, runtimeScene, true, true);
+}if (gdjs.DeathMenuCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.DeathMenuCode.GDQuitObjects1 */
+{for(var i = 0, len = gdjs.DeathMenuCode.GDQuitObjects1.length ;i < len;++i) {
+    gdjs.DeathMenuCode.GDQuitObjects1[i].setBold(false);
 }
 }}
 
@@ -173,96 +231,110 @@ gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 
 {
 
-gdjs.WinMenuCode.GDQuitObjects1.createFrom(runtimeScene.getObjects("Quit"));
+gdjs.DeathMenuCode.GDQuitObjects1.createFrom(runtimeScene.getObjects("Quit"));
 
-gdjs.WinMenuCode.condition0IsTrue_0.val = false;
+gdjs.DeathMenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDQuitObjects1Objects, runtimeScene, true, false);
-}if (gdjs.WinMenuCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.WinMenuCode.GDQuitObjects1 */
-{for(var i = 0, len = gdjs.WinMenuCode.GDQuitObjects1.length ;i < len;++i) {
-    gdjs.WinMenuCode.GDQuitObjects1[i].setBold(true);
+gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDQuitObjects1Objects, runtimeScene, true, false);
+}if (gdjs.DeathMenuCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.DeathMenuCode.GDQuitObjects1 */
+{for(var i = 0, len = gdjs.DeathMenuCode.GDQuitObjects1.length ;i < len;++i) {
+    gdjs.DeathMenuCode.GDQuitObjects1[i].setBold(true);
 }
 }
 { //Subevents
-gdjs.WinMenuCode.eventsList0x816184(runtimeScene);} //End of subevents
+gdjs.DeathMenuCode.eventsList0x8b4504(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.WinMenuCode.eventsList0x5b6e18
+}; //End of gdjs.DeathMenuCode.eventsList0x5b70b8
 
 
-gdjs.WinMenuCode.func = function(runtimeScene) {
+gdjs.DeathMenuCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.WinMenuCode.GDSilverCountObjects1.length = 0;
-gdjs.WinMenuCode.GDSilverCountObjects2.length = 0;
-gdjs.WinMenuCode.GDDepthObjects1.length = 0;
-gdjs.WinMenuCode.GDDepthObjects2.length = 0;
-gdjs.WinMenuCode.GDForegroundObjects1.length = 0;
-gdjs.WinMenuCode.GDForegroundObjects2.length = 0;
-gdjs.WinMenuCode.GDMossObjects1.length = 0;
-gdjs.WinMenuCode.GDMossObjects2.length = 0;
-gdjs.WinMenuCode.GDGlassObjects1.length = 0;
-gdjs.WinMenuCode.GDGlassObjects2.length = 0;
-gdjs.WinMenuCode.GDLadderObjects1.length = 0;
-gdjs.WinMenuCode.GDLadderObjects2.length = 0;
-gdjs.WinMenuCode.GDDoorwayBackObjects1.length = 0;
-gdjs.WinMenuCode.GDDoorwayBackObjects2.length = 0;
-gdjs.WinMenuCode.GDDoorwayObjects1.length = 0;
-gdjs.WinMenuCode.GDDoorwayObjects2.length = 0;
-gdjs.WinMenuCode.GDDoorLightVerticalObjects1.length = 0;
-gdjs.WinMenuCode.GDDoorLightVerticalObjects2.length = 0;
-gdjs.WinMenuCode.GDDoorLightHorizontalObjects1.length = 0;
-gdjs.WinMenuCode.GDDoorLightHorizontalObjects2.length = 0;
-gdjs.WinMenuCode.GDDoorHeavyVerticalObjects1.length = 0;
-gdjs.WinMenuCode.GDDoorHeavyVerticalObjects2.length = 0;
-gdjs.WinMenuCode.GDDoorHeavyHorizontalObjects1.length = 0;
-gdjs.WinMenuCode.GDDoorHeavyHorizontalObjects2.length = 0;
-gdjs.WinMenuCode.GDCrystalObjects1.length = 0;
-gdjs.WinMenuCode.GDCrystalObjects2.length = 0;
-gdjs.WinMenuCode.GDButtonObjects1.length = 0;
-gdjs.WinMenuCode.GDButtonObjects2.length = 0;
-gdjs.WinMenuCode.GDDarknessObjects1.length = 0;
-gdjs.WinMenuCode.GDDarknessObjects2.length = 0;
-gdjs.WinMenuCode.GDSunlightSourceObjects1.length = 0;
-gdjs.WinMenuCode.GDSunlightSourceObjects2.length = 0;
-gdjs.WinMenuCode.GDSunlightObjects1.length = 0;
-gdjs.WinMenuCode.GDSunlightObjects2.length = 0;
-gdjs.WinMenuCode.GDMirrorStaticObjects1.length = 0;
-gdjs.WinMenuCode.GDMirrorStaticObjects2.length = 0;
-gdjs.WinMenuCode.GDMirrorObjects1.length = 0;
-gdjs.WinMenuCode.GDMirrorObjects2.length = 0;
-gdjs.WinMenuCode.GDSphereStaticObjects1.length = 0;
-gdjs.WinMenuCode.GDSphereStaticObjects2.length = 0;
-gdjs.WinMenuCode.GDSphereObjects1.length = 0;
-gdjs.WinMenuCode.GDSphereObjects2.length = 0;
-gdjs.WinMenuCode.GDPlayerObjects1.length = 0;
-gdjs.WinMenuCode.GDPlayerObjects2.length = 0;
-gdjs.WinMenuCode.GDSilverObjects1.length = 0;
-gdjs.WinMenuCode.GDSilverObjects2.length = 0;
-gdjs.WinMenuCode.GDVampireObjects1.length = 0;
-gdjs.WinMenuCode.GDVampireObjects2.length = 0;
-gdjs.WinMenuCode.GDleftObjects1.length = 0;
-gdjs.WinMenuCode.GDleftObjects2.length = 0;
-gdjs.WinMenuCode.GDrightObjects1.length = 0;
-gdjs.WinMenuCode.GDrightObjects2.length = 0;
-gdjs.WinMenuCode.GDBackgroundObjects1.length = 0;
-gdjs.WinMenuCode.GDBackgroundObjects2.length = 0;
-gdjs.WinMenuCode.GDTitleObjects1.length = 0;
-gdjs.WinMenuCode.GDTitleObjects2.length = 0;
-gdjs.WinMenuCode.GDStartObjects1.length = 0;
-gdjs.WinMenuCode.GDStartObjects2.length = 0;
-gdjs.WinMenuCode.GDQuitObjects1.length = 0;
-gdjs.WinMenuCode.GDQuitObjects2.length = 0;
-gdjs.WinMenuCode.GDScoreObjects1.length = 0;
-gdjs.WinMenuCode.GDScoreObjects2.length = 0;
+gdjs.DeathMenuCode.GDSilverCountObjects1.length = 0;
+gdjs.DeathMenuCode.GDSilverCountObjects2.length = 0;
+gdjs.DeathMenuCode.GDDepthObjects1.length = 0;
+gdjs.DeathMenuCode.GDDepthObjects2.length = 0;
+gdjs.DeathMenuCode.GDForegroundObjects1.length = 0;
+gdjs.DeathMenuCode.GDForegroundObjects2.length = 0;
+gdjs.DeathMenuCode.GDMossObjects1.length = 0;
+gdjs.DeathMenuCode.GDMossObjects2.length = 0;
+gdjs.DeathMenuCode.GDFogObjects1.length = 0;
+gdjs.DeathMenuCode.GDFogObjects2.length = 0;
+gdjs.DeathMenuCode.GDGlassObjects1.length = 0;
+gdjs.DeathMenuCode.GDGlassObjects2.length = 0;
+gdjs.DeathMenuCode.GDLadderObjects1.length = 0;
+gdjs.DeathMenuCode.GDLadderObjects2.length = 0;
+gdjs.DeathMenuCode.GDDoorwayBackObjects1.length = 0;
+gdjs.DeathMenuCode.GDDoorwayBackObjects2.length = 0;
+gdjs.DeathMenuCode.GDDoorwayObjects1.length = 0;
+gdjs.DeathMenuCode.GDDoorwayObjects2.length = 0;
+gdjs.DeathMenuCode.GDDoorLightVerticalObjects1.length = 0;
+gdjs.DeathMenuCode.GDDoorLightVerticalObjects2.length = 0;
+gdjs.DeathMenuCode.GDDoorLightHorizontalObjects1.length = 0;
+gdjs.DeathMenuCode.GDDoorLightHorizontalObjects2.length = 0;
+gdjs.DeathMenuCode.GDDoorHeavyVerticalObjects1.length = 0;
+gdjs.DeathMenuCode.GDDoorHeavyVerticalObjects2.length = 0;
+gdjs.DeathMenuCode.GDDoorHeavyHorizontalObjects1.length = 0;
+gdjs.DeathMenuCode.GDDoorHeavyHorizontalObjects2.length = 0;
+gdjs.DeathMenuCode.GDCrystalObjects1.length = 0;
+gdjs.DeathMenuCode.GDCrystalObjects2.length = 0;
+gdjs.DeathMenuCode.GDDarknessObjects1.length = 0;
+gdjs.DeathMenuCode.GDDarknessObjects2.length = 0;
+gdjs.DeathMenuCode.GDLanternObjects1.length = 0;
+gdjs.DeathMenuCode.GDLanternObjects2.length = 0;
+gdjs.DeathMenuCode.GDSunlightSourceObjects1.length = 0;
+gdjs.DeathMenuCode.GDSunlightSourceObjects2.length = 0;
+gdjs.DeathMenuCode.GDSunlightObjects1.length = 0;
+gdjs.DeathMenuCode.GDSunlightObjects2.length = 0;
+gdjs.DeathMenuCode.GDMirrorStaticObjects1.length = 0;
+gdjs.DeathMenuCode.GDMirrorStaticObjects2.length = 0;
+gdjs.DeathMenuCode.GDMirrorObjects1.length = 0;
+gdjs.DeathMenuCode.GDMirrorObjects2.length = 0;
+gdjs.DeathMenuCode.GDSphereStaticObjects1.length = 0;
+gdjs.DeathMenuCode.GDSphereStaticObjects2.length = 0;
+gdjs.DeathMenuCode.GDSphereObjects1.length = 0;
+gdjs.DeathMenuCode.GDSphereObjects2.length = 0;
+gdjs.DeathMenuCode.GDPlayerObjects1.length = 0;
+gdjs.DeathMenuCode.GDPlayerObjects2.length = 0;
+gdjs.DeathMenuCode.GDVampireObjects1.length = 0;
+gdjs.DeathMenuCode.GDVampireObjects2.length = 0;
+gdjs.DeathMenuCode.GDSilverObjects1.length = 0;
+gdjs.DeathMenuCode.GDSilverObjects2.length = 0;
+gdjs.DeathMenuCode.GDUI_95ExitObjects1.length = 0;
+gdjs.DeathMenuCode.GDUI_95ExitObjects2.length = 0;
+gdjs.DeathMenuCode.GDUI_95InteractObjects1.length = 0;
+gdjs.DeathMenuCode.GDUI_95InteractObjects2.length = 0;
+gdjs.DeathMenuCode.GDUI_95JumpObjects1.length = 0;
+gdjs.DeathMenuCode.GDUI_95JumpObjects2.length = 0;
+gdjs.DeathMenuCode.GDUI_95Dir_95RightObjects1.length = 0;
+gdjs.DeathMenuCode.GDUI_95Dir_95RightObjects2.length = 0;
+gdjs.DeathMenuCode.GDUI_95Dir_95LeftObjects1.length = 0;
+gdjs.DeathMenuCode.GDUI_95Dir_95LeftObjects2.length = 0;
+gdjs.DeathMenuCode.GDUI_95Mir_95RightObjects1.length = 0;
+gdjs.DeathMenuCode.GDUI_95Mir_95RightObjects2.length = 0;
+gdjs.DeathMenuCode.GDUI_95Mir_95LeftObjects1.length = 0;
+gdjs.DeathMenuCode.GDUI_95Mir_95LeftObjects2.length = 0;
+gdjs.DeathMenuCode.GDrightObjects1.length = 0;
+gdjs.DeathMenuCode.GDrightObjects2.length = 0;
+gdjs.DeathMenuCode.GDleftObjects1.length = 0;
+gdjs.DeathMenuCode.GDleftObjects2.length = 0;
+gdjs.DeathMenuCode.GDBackgroundObjects1.length = 0;
+gdjs.DeathMenuCode.GDBackgroundObjects2.length = 0;
+gdjs.DeathMenuCode.GDTitleObjects1.length = 0;
+gdjs.DeathMenuCode.GDTitleObjects2.length = 0;
+gdjs.DeathMenuCode.GDStartObjects1.length = 0;
+gdjs.DeathMenuCode.GDStartObjects2.length = 0;
+gdjs.DeathMenuCode.GDQuitObjects1.length = 0;
+gdjs.DeathMenuCode.GDQuitObjects2.length = 0;
 
-gdjs.WinMenuCode.eventsList0x5b6e18(runtimeScene);
+gdjs.DeathMenuCode.eventsList0x5b70b8(runtimeScene);
 return;
 
 }
 
-gdjs['WinMenuCode'] = gdjs.WinMenuCode;
+gdjs['DeathMenuCode'] = gdjs.DeathMenuCode;
