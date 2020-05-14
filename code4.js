@@ -85,7 +85,7 @@ gdjs.NextMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.NextMenuCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.NextMenuCode.eventsList0x8782ac = function(runtimeScene) {
+gdjs.NextMenuCode.eventsList0x760abc = function(runtimeScene) {
 
 {
 
@@ -100,26 +100,26 @@ gdjs.NextMenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }
 
 
-}; //End of gdjs.NextMenuCode.eventsList0x8782ac
-gdjs.NextMenuCode.mapOfGDgdjs_46NextMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.NextMenuCode.GDStartObjects1});gdjs.NextMenuCode.mapOfGDgdjs_46NextMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.NextMenuCode.GDStartObjects1});gdjs.NextMenuCode.userFunc0x8794f0 = function(runtimeScene) {
+}; //End of gdjs.NextMenuCode.eventsList0x760abc
+gdjs.NextMenuCode.mapOfGDgdjs_46NextMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.NextMenuCode.GDStartObjects1});gdjs.NextMenuCode.mapOfGDgdjs_46NextMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.NextMenuCode.GDStartObjects1});gdjs.NextMenuCode.userFunc0x7609d0 = function(runtimeScene) {
 "use strict";
 
 let lvl = runtimeScene.getGame().getVariables()._variables.items&&runtimeScene.getGame().getVariables()._variables.items.Level._value;
 
 runtimeScene.requestChange(gdjs.RuntimeScene.REPLACE_SCENE, (lvl>0 ? "Level_"+lvl : "StartMenu"));
 };
-gdjs.NextMenuCode.eventsList0x77d7ac = function(runtimeScene) {
+gdjs.NextMenuCode.eventsList0x7774bc = function(runtimeScene) {
 
 {
 
 
-gdjs.NextMenuCode.userFunc0x8794f0(runtimeScene);
+gdjs.NextMenuCode.userFunc0x7609d0(runtimeScene);
 
 }
 
 
-}; //End of gdjs.NextMenuCode.eventsList0x77d7ac
-gdjs.NextMenuCode.eventsList0x94bd54 = function(runtimeScene) {
+}; //End of gdjs.NextMenuCode.eventsList0x7774bc
+gdjs.NextMenuCode.eventsList0x7772ec = function(runtimeScene) {
 
 {
 
@@ -130,32 +130,32 @@ gdjs.NextMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 }if (gdjs.NextMenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NextMenuCode.eventsList0x77d7ac(runtimeScene);} //End of subevents
+gdjs.NextMenuCode.eventsList0x7774bc(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.NextMenuCode.eventsList0x94bd54
-gdjs.NextMenuCode.userFunc0x74d5f8 = function(runtimeScene) {
+}; //End of gdjs.NextMenuCode.eventsList0x7772ec
+gdjs.NextMenuCode.userFunc0x777848 = function(runtimeScene) {
 "use strict";
 
 let lvl = runtimeScene.getGame().getVariables()._variables.items&&runtimeScene.getGame().getVariables()._variables.items.Level._value;
 
 runtimeScene.requestChange(gdjs.RuntimeScene.REPLACE_SCENE, (lvl>0 ? "Level_"+lvl : "StartMenu"));
 };
-gdjs.NextMenuCode.eventsList0x901afc = function(runtimeScene) {
+gdjs.NextMenuCode.eventsList0x77778c = function(runtimeScene) {
 
 {
 
 
-gdjs.NextMenuCode.userFunc0x74d5f8(runtimeScene);
+gdjs.NextMenuCode.userFunc0x777848(runtimeScene);
 
 }
 
 
-}; //End of gdjs.NextMenuCode.eventsList0x901afc
-gdjs.NextMenuCode.mapOfGDgdjs_46NextMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.NextMenuCode.GDQuitObjects1});gdjs.NextMenuCode.mapOfGDgdjs_46NextMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.NextMenuCode.GDQuitObjects1});gdjs.NextMenuCode.eventsList0x901524 = function(runtimeScene) {
+}; //End of gdjs.NextMenuCode.eventsList0x77778c
+gdjs.NextMenuCode.mapOfGDgdjs_46NextMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.NextMenuCode.GDQuitObjects1});gdjs.NextMenuCode.mapOfGDgdjs_46NextMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.NextMenuCode.GDQuitObjects1});gdjs.NextMenuCode.eventsList0x777c7c = function(runtimeScene) {
 
 {
 
@@ -170,7 +170,7 @@ gdjs.NextMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 }
 
 
-}; //End of gdjs.NextMenuCode.eventsList0x901524
+}; //End of gdjs.NextMenuCode.eventsList0x777c7c
 gdjs.NextMenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -191,7 +191,7 @@ gdjs.NextMenuCode.GDTitleObjects1.createFrom(runtimeScene.getObjects("Title"));
 }{gdjs.evtTools.sound.playMusic(runtimeScene, "_SFX\\234260__tyops__scary-piano-in-church.wav", true, 100, 1);
 }
 { //Subevents
-gdjs.NextMenuCode.eventsList0x8782ac(runtimeScene);} //End of subevents
+gdjs.NextMenuCode.eventsList0x760abc(runtimeScene);} //End of subevents
 }
 
 }
@@ -228,7 +228,7 @@ gdjs.NextMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.NextMenuCode.eventsList0x94bd54(runtimeScene);} //End of subevents
+gdjs.NextMenuCode.eventsList0x7772ec(runtimeScene);} //End of subevents
 }
 
 }
@@ -243,7 +243,7 @@ gdjs.NextMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(ru
 }if (gdjs.NextMenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.NextMenuCode.eventsList0x901afc(runtimeScene);} //End of subevents
+gdjs.NextMenuCode.eventsList0x77778c(runtimeScene);} //End of subevents
 }
 
 }
@@ -280,7 +280,7 @@ gdjs.NextMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.NextMenuCode.eventsList0x901524(runtimeScene);} //End of subevents
+gdjs.NextMenuCode.eventsList0x777c7c(runtimeScene);} //End of subevents
 }
 
 }

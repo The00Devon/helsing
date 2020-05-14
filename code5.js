@@ -89,7 +89,7 @@ gdjs.PauseMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.PauseMenuCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.PauseMenuCode.GDStartObjects1});gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.PauseMenuCode.GDStartObjects1});gdjs.PauseMenuCode.eventsList0x7bfc44 = function(runtimeScene) {
+gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.PauseMenuCode.GDStartObjects1});gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.PauseMenuCode.GDStartObjects1});gdjs.PauseMenuCode.eventsList0x77a8ec = function(runtimeScene) {
 
 {
 
@@ -104,8 +104,8 @@ gdjs.PauseMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.PauseMenuCode.eventsList0x7bfc44
-gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDRestartObjects1Objects = Hashtable.newFrom({"Restart": gdjs.PauseMenuCode.GDRestartObjects1});gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDRestartObjects1Objects = Hashtable.newFrom({"Restart": gdjs.PauseMenuCode.GDRestartObjects1});gdjs.PauseMenuCode.userFunc0x775030 = function(runtimeScene) {
+}; //End of gdjs.PauseMenuCode.eventsList0x77a8ec
+gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDRestartObjects1Objects = Hashtable.newFrom({"Restart": gdjs.PauseMenuCode.GDRestartObjects1});gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDRestartObjects1Objects = Hashtable.newFrom({"Restart": gdjs.PauseMenuCode.GDRestartObjects1});gdjs.PauseMenuCode.userFunc0x6c8f18 = function(runtimeScene) {
 "use strict";
 
 let lvl = runtimeScene.getGame().getVariables()._variables.items&&runtimeScene.getGame().getVariables()._variables.items.Level._value;
@@ -113,18 +113,18 @@ let lvl = runtimeScene.getGame().getVariables()._variables.items&&runtimeScene.g
 runtimeScene.requestChange(gdjs.RuntimeScene.REPLACE_SCENE, (lvl>0 ? "Level_"+lvl : "StartMenu"));
 
 };
-gdjs.PauseMenuCode.eventsList0x7979e4 = function(runtimeScene) {
+gdjs.PauseMenuCode.eventsList0x77b1ec = function(runtimeScene) {
 
 {
 
 
-gdjs.PauseMenuCode.userFunc0x775030(runtimeScene);
+gdjs.PauseMenuCode.userFunc0x6c8f18(runtimeScene);
 
 }
 
 
-}; //End of gdjs.PauseMenuCode.eventsList0x7979e4
-gdjs.PauseMenuCode.eventsList0x9decf4 = function(runtimeScene) {
+}; //End of gdjs.PauseMenuCode.eventsList0x77b1ec
+gdjs.PauseMenuCode.eventsList0x77b044 = function(runtimeScene) {
 
 {
 
@@ -135,14 +135,14 @@ gdjs.PauseMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if (gdjs.PauseMenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.PauseMenuCode.eventsList0x7979e4(runtimeScene);} //End of subevents
+gdjs.PauseMenuCode.eventsList0x77b1ec(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.PauseMenuCode.eventsList0x9decf4
-gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDCheatsObjects1Objects = Hashtable.newFrom({"Cheats": gdjs.PauseMenuCode.GDCheatsObjects1});gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDCheatsObjects1Objects = Hashtable.newFrom({"Cheats": gdjs.PauseMenuCode.GDCheatsObjects1});gdjs.PauseMenuCode.eventsList0x9664cc = function(runtimeScene) {
+}; //End of gdjs.PauseMenuCode.eventsList0x77b044
+gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDCheatsObjects1Objects = Hashtable.newFrom({"Cheats": gdjs.PauseMenuCode.GDCheatsObjects1});gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDCheatsObjects1Objects = Hashtable.newFrom({"Cheats": gdjs.PauseMenuCode.GDCheatsObjects1});gdjs.PauseMenuCode.eventsList0x77b67c = function(runtimeScene) {
 
 {
 
@@ -157,8 +157,8 @@ gdjs.PauseMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.PauseMenuCode.eventsList0x9664cc
-gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.PauseMenuCode.GDQuitObjects1});gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.PauseMenuCode.GDQuitObjects1});gdjs.PauseMenuCode.eventsList0xa56a6c = function(runtimeScene) {
+}; //End of gdjs.PauseMenuCode.eventsList0x77b67c
+gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.PauseMenuCode.GDQuitObjects1});gdjs.PauseMenuCode.mapOfGDgdjs_46PauseMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.PauseMenuCode.GDQuitObjects1});gdjs.PauseMenuCode.eventsList0x77bc9c = function(runtimeScene) {
 
 {
 
@@ -173,7 +173,7 @@ gdjs.PauseMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }
 
 
-}; //End of gdjs.PauseMenuCode.eventsList0xa56a6c
+}; //End of gdjs.PauseMenuCode.eventsList0x77bc9c
 gdjs.PauseMenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -227,7 +227,7 @@ gdjs.PauseMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(g
 }
 }
 { //Subevents
-gdjs.PauseMenuCode.eventsList0x7bfc44(runtimeScene);} //End of subevents
+gdjs.PauseMenuCode.eventsList0x77a8ec(runtimeScene);} //End of subevents
 }
 
 }
@@ -277,7 +277,7 @@ gdjs.PauseMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(g
 }
 }
 { //Subevents
-gdjs.PauseMenuCode.eventsList0x9decf4(runtimeScene);} //End of subevents
+gdjs.PauseMenuCode.eventsList0x77b044(runtimeScene);} //End of subevents
 }
 
 }
@@ -314,7 +314,7 @@ gdjs.PauseMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(g
 }
 }
 { //Subevents
-gdjs.PauseMenuCode.eventsList0x9664cc(runtimeScene);} //End of subevents
+gdjs.PauseMenuCode.eventsList0x77b67c(runtimeScene);} //End of subevents
 }
 
 }
@@ -351,7 +351,7 @@ gdjs.PauseMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(g
 }
 }
 { //Subevents
-gdjs.PauseMenuCode.eventsList0xa56a6c(runtimeScene);} //End of subevents
+gdjs.PauseMenuCode.eventsList0x77bc9c(runtimeScene);} //End of subevents
 }
 
 }

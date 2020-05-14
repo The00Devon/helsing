@@ -85,7 +85,7 @@ gdjs.WinMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.WinMenuCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.WinMenuCode.GDStartObjects1});gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.WinMenuCode.GDStartObjects1});gdjs.WinMenuCode.eventsList0x7bfc44 = function(runtimeScene) {
+gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.WinMenuCode.GDStartObjects1});gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.WinMenuCode.GDStartObjects1});gdjs.WinMenuCode.eventsList0x77f144 = function(runtimeScene) {
 
 {
 
@@ -100,8 +100,8 @@ gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelea
 }
 
 
-}; //End of gdjs.WinMenuCode.eventsList0x7bfc44
-gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.WinMenuCode.GDQuitObjects1});gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.WinMenuCode.GDQuitObjects1});gdjs.WinMenuCode.eventsList0x901afc = function(runtimeScene) {
+}; //End of gdjs.WinMenuCode.eventsList0x77f144
+gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.WinMenuCode.GDQuitObjects1});gdjs.WinMenuCode.mapOfGDgdjs_46WinMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.WinMenuCode.GDQuitObjects1});gdjs.WinMenuCode.eventsList0x77f6fc = function(runtimeScene) {
 
 {
 
@@ -116,7 +116,7 @@ gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelea
 }
 
 
-}; //End of gdjs.WinMenuCode.eventsList0x901afc
+}; //End of gdjs.WinMenuCode.eventsList0x77f6fc
 gdjs.WinMenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -167,7 +167,7 @@ gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 }
 }
 { //Subevents
-gdjs.WinMenuCode.eventsList0x7bfc44(runtimeScene);} //End of subevents
+gdjs.WinMenuCode.eventsList0x77f144(runtimeScene);} //End of subevents
 }
 
 }
@@ -204,7 +204,7 @@ gdjs.WinMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 }
 }
 { //Subevents
-gdjs.WinMenuCode.eventsList0x901afc(runtimeScene);} //End of subevents
+gdjs.WinMenuCode.eventsList0x77f6fc(runtimeScene);} //End of subevents
 }
 
 }

@@ -88,7 +88,7 @@ gdjs.DeathMenuCode.condition1IsTrue_1 = {val:false};
 gdjs.DeathMenuCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.DeathMenuCode.GDStartObjects1});gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.DeathMenuCode.GDStartObjects1});gdjs.DeathMenuCode.userFunc0x780948 = function(runtimeScene) {
+gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.DeathMenuCode.GDStartObjects1});gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDStartObjects1Objects = Hashtable.newFrom({"Start": gdjs.DeathMenuCode.GDStartObjects1});gdjs.DeathMenuCode.userFunc0x772c08 = function(runtimeScene) {
 "use strict";
 
 if(runtimeScene.getGame().getInputManager().isMouseButtonPressed(gdjs.InputManager.MOUSE_LEFT_BUTTON)){
@@ -101,12 +101,12 @@ if(runtimeScene.getGame().getInputManager().isMouseButtonPressed(gdjs.InputManag
 
 }
 };
-gdjs.DeathMenuCode.eventsList0x77d7ac = function(runtimeScene) {
+gdjs.DeathMenuCode.eventsList0x772a9c = function(runtimeScene) {
 
 {
 
 
-gdjs.DeathMenuCode.userFunc0x780948(runtimeScene);
+gdjs.DeathMenuCode.userFunc0x772c08(runtimeScene);
 
 }
 
@@ -124,8 +124,8 @@ gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.DeathMenuCode.eventsList0x77d7ac
-gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.DeathMenuCode.GDQuitObjects1});gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.DeathMenuCode.GDQuitObjects1});gdjs.DeathMenuCode.eventsList0x901524 = function(runtimeScene) {
+}; //End of gdjs.DeathMenuCode.eventsList0x772a9c
+gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.DeathMenuCode.GDQuitObjects1});gdjs.DeathMenuCode.mapOfGDgdjs_46DeathMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.DeathMenuCode.GDQuitObjects1});gdjs.DeathMenuCode.eventsList0x773144 = function(runtimeScene) {
 
 {
 
@@ -140,7 +140,7 @@ gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.DeathMenuCode.eventsList0x901524
+}; //End of gdjs.DeathMenuCode.eventsList0x773144
 gdjs.DeathMenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -167,7 +167,7 @@ gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElap
 }if ( gdjs.DeathMenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DeathMenuCode.conditionTrue_1 = gdjs.DeathMenuCode.condition1IsTrue_0;
-gdjs.DeathMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10839748);
+gdjs.DeathMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7808804);
 }
 }}
 if (gdjs.DeathMenuCode.condition1IsTrue_0.val) {
@@ -208,7 +208,7 @@ gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(g
 }
 }
 { //Subevents
-gdjs.DeathMenuCode.eventsList0x77d7ac(runtimeScene);} //End of subevents
+gdjs.DeathMenuCode.eventsList0x772a9c(runtimeScene);} //End of subevents
 }
 
 }
@@ -245,7 +245,7 @@ gdjs.DeathMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(g
 }
 }
 { //Subevents
-gdjs.DeathMenuCode.eventsList0x901524(runtimeScene);} //End of subevents
+gdjs.DeathMenuCode.eventsList0x773144(runtimeScene);} //End of subevents
 }
 
 }

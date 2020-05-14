@@ -115,7 +115,7 @@ gdjs.CheatsCode.condition1IsTrue_1 = {val:false};
 gdjs.CheatsCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.CheatsCode.eventsList0x7bbfc4 = function(runtimeScene) {
+gdjs.CheatsCode.eventsList0x773a5c = function(runtimeScene) {
 
 {
 
@@ -130,8 +130,8 @@ gdjs.CheatsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x7bbfc4
-gdjs.CheatsCode.eventsList0x77d78c = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x773a5c
+gdjs.CheatsCode.eventsList0x7d06dc = function(runtimeScene) {
 
 {
 
@@ -146,8 +146,8 @@ gdjs.CheatsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x77d78c
-gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDMirrorObjects2Objects = Hashtable.newFrom({"Mirror": gdjs.CheatsCode.GDMirrorObjects2});gdjs.CheatsCode.eventsList0x901adc = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x7d06dc
+gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDMirrorObjects2Objects = Hashtable.newFrom({"Mirror": gdjs.CheatsCode.GDMirrorObjects2});gdjs.CheatsCode.eventsList0x7cffcc = function(runtimeScene) {
 
 {
 
@@ -159,7 +159,7 @@ gdjs.CheatsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }if ( gdjs.CheatsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CheatsCode.conditionTrue_1 = gdjs.CheatsCode.condition1IsTrue_0;
-gdjs.CheatsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7874724);
+gdjs.CheatsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8467724);
 }
 }}
 if (gdjs.CheatsCode.condition1IsTrue_0.val) {
@@ -172,8 +172,8 @@ gdjs.CheatsCode.GDMirrorObjects2.length = 0;
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x901adc
-gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDSphereObjects2Objects = Hashtable.newFrom({"Sphere": gdjs.CheatsCode.GDSphereObjects2});gdjs.CheatsCode.eventsList0x7979c4 = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x7cffcc
+gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDSphereObjects2Objects = Hashtable.newFrom({"Sphere": gdjs.CheatsCode.GDSphereObjects2});gdjs.CheatsCode.eventsList0x7cf634 = function(runtimeScene) {
 
 {
 
@@ -185,7 +185,7 @@ gdjs.CheatsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }if ( gdjs.CheatsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.CheatsCode.conditionTrue_1 = gdjs.CheatsCode.condition1IsTrue_0;
-gdjs.CheatsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7121124);
+gdjs.CheatsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8468348);
 }
 }}
 if (gdjs.CheatsCode.condition1IsTrue_0.val) {
@@ -198,8 +198,8 @@ gdjs.CheatsCode.GDSphereObjects2.length = 0;
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x7979c4
-gdjs.CheatsCode.eventsList0x8fecd4 = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x7cf634
+gdjs.CheatsCode.eventsList0x7cec9c = function(runtimeScene) {
 
 {
 
@@ -216,8 +216,8 @@ gdjs.CheatsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x8fecd4
-gdjs.CheatsCode.eventsList0xa56a4c = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x7cec9c
+gdjs.CheatsCode.eventsList0x7ce364 = function(runtimeScene) {
 
 {
 
@@ -247,8 +247,8 @@ gdjs.CheatsCode.GDDoorLightVerticalObjects2.createFrom(runtimeScene.getObjects("
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0xa56a4c
-gdjs.CheatsCode.eventsList0x901a34 = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x7ce364
+gdjs.CheatsCode.eventsList0x7ab874 = function(runtimeScene) {
 
 {
 
@@ -266,8 +266,8 @@ gdjs.CheatsCode.GDVampireObjects2.createFrom(runtimeScene.getObjects("Vampire"))
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x901a34
-gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDSunlightSourceObjects2Objects = Hashtable.newFrom({"SunlightSource": gdjs.CheatsCode.GDSunlightSourceObjects2});gdjs.CheatsCode.eventsList0x7746bc = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x7ab874
+gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDSunlightSourceObjects2Objects = Hashtable.newFrom({"SunlightSource": gdjs.CheatsCode.GDSunlightSourceObjects2});gdjs.CheatsCode.eventsList0x814204 = function(runtimeScene) {
 
 {
 
@@ -285,8 +285,8 @@ gdjs.CheatsCode.GDSunlightSourceObjects2.length = 0;
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x7746bc
-gdjs.CheatsCode.eventsList0x94c554 = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x814204
+gdjs.CheatsCode.eventsList0x8144b4 = function(runtimeScene) {
 
 {
 
@@ -308,8 +308,8 @@ gdjs.CheatsCode.GDrightObjects2.createFrom(runtimeScene.getObjects("right"));
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x94c554
-gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDInfoObjects2Objects = Hashtable.newFrom({"Info": gdjs.CheatsCode.GDInfoObjects2});gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDInfoObjects2Objects = Hashtable.newFrom({"Info": gdjs.CheatsCode.GDInfoObjects2});gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDInfoObjects1Objects = Hashtable.newFrom({"Info": gdjs.CheatsCode.GDInfoObjects1});gdjs.CheatsCode.userFunc0x878da8 = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x8144b4
+gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDInfoObjects2Objects = Hashtable.newFrom({"Info": gdjs.CheatsCode.GDInfoObjects2});gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDInfoObjects2Objects = Hashtable.newFrom({"Info": gdjs.CheatsCode.GDInfoObjects2});gdjs.CheatsCode.mapOfGDgdjs_46CheatsCode_46GDInfoObjects1Objects = Hashtable.newFrom({"Info": gdjs.CheatsCode.GDInfoObjects1});gdjs.CheatsCode.userFunc0x814c90 = function(runtimeScene) {
 "use strict";
 console.log(runtimeScene);
 
@@ -328,18 +328,18 @@ runtimeScene.getObjects("Info")[0].setString(""
     +"Player status = "+playerSprite.getAnimationName()+"\n"
 );
 };
-gdjs.CheatsCode.eventsList0x79e11c = function(runtimeScene) {
+gdjs.CheatsCode.eventsList0x814bc4 = function(runtimeScene) {
 
 {
 
 
-gdjs.CheatsCode.userFunc0x878da8(runtimeScene);
+gdjs.CheatsCode.userFunc0x814c90(runtimeScene);
 
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x79e11c
-gdjs.CheatsCode.eventsList0x80cb44 = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x814bc4
+gdjs.CheatsCode.eventsList0x814844 = function(runtimeScene) {
 
 {
 
@@ -372,86 +372,86 @@ gdjs.CheatsCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount
 }if (gdjs.CheatsCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.CheatsCode.eventsList0x79e11c(runtimeScene);} //End of subevents
+gdjs.CheatsCode.eventsList0x814bc4(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x80cb44
-gdjs.CheatsCode.eventsList0x8782ac = function(runtimeScene) {
+}; //End of gdjs.CheatsCode.eventsList0x814844
+gdjs.CheatsCode.eventsList0x760abc = function(runtimeScene) {
 
 {
 
 
-gdjs.CheatsCode.eventsList0x7bbfc4(runtimeScene);
-}
-
-
-{
-
-
-gdjs.CheatsCode.eventsList0x77d78c(runtimeScene);
+gdjs.CheatsCode.eventsList0x773a5c(runtimeScene);
 }
 
 
 {
 
 
-gdjs.CheatsCode.eventsList0x901adc(runtimeScene);
+gdjs.CheatsCode.eventsList0x7d06dc(runtimeScene);
 }
 
 
 {
 
 
-gdjs.CheatsCode.eventsList0x7979c4(runtimeScene);
+gdjs.CheatsCode.eventsList0x7cffcc(runtimeScene);
 }
 
 
 {
 
 
-gdjs.CheatsCode.eventsList0x8fecd4(runtimeScene);
+gdjs.CheatsCode.eventsList0x7cf634(runtimeScene);
 }
 
 
 {
 
 
-gdjs.CheatsCode.eventsList0xa56a4c(runtimeScene);
+gdjs.CheatsCode.eventsList0x7cec9c(runtimeScene);
 }
 
 
 {
 
 
-gdjs.CheatsCode.eventsList0x901a34(runtimeScene);
+gdjs.CheatsCode.eventsList0x7ce364(runtimeScene);
 }
 
 
 {
 
 
-gdjs.CheatsCode.eventsList0x7746bc(runtimeScene);
+gdjs.CheatsCode.eventsList0x7ab874(runtimeScene);
 }
 
 
 {
 
 
-gdjs.CheatsCode.eventsList0x94c554(runtimeScene);
+gdjs.CheatsCode.eventsList0x814204(runtimeScene);
 }
 
 
 {
 
 
-gdjs.CheatsCode.eventsList0x80cb44(runtimeScene);
+gdjs.CheatsCode.eventsList0x8144b4(runtimeScene);
 }
 
 
-}; //End of gdjs.CheatsCode.eventsList0x8782ac
+{
+
+
+gdjs.CheatsCode.eventsList0x814844(runtimeScene);
+}
+
+
+}; //End of gdjs.CheatsCode.eventsList0x760abc
 gdjs.CheatsCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -463,7 +463,7 @@ gdjs.CheatsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if (gdjs.CheatsCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.CheatsCode.eventsList0x8782ac(runtimeScene);} //End of subevents
+gdjs.CheatsCode.eventsList0x760abc(runtimeScene);} //End of subevents
 }
 
 }

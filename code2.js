@@ -85,7 +85,7 @@ gdjs.CheatsMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.CheatsMenuCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.CheatsMenuCode.GDQuitObjects1});gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.CheatsMenuCode.GDQuitObjects1});gdjs.CheatsMenuCode.eventsList0x77d7ac = function(runtimeScene) {
+gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.CheatsMenuCode.GDQuitObjects1});gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDQuitObjects1Objects = Hashtable.newFrom({"Quit": gdjs.CheatsMenuCode.GDQuitObjects1});gdjs.CheatsMenuCode.eventsList0x76f8a4 = function(runtimeScene) {
 
 {
 
@@ -100,8 +100,8 @@ gdjs.CheatsMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 }
 
 
-}; //End of gdjs.CheatsMenuCode.eventsList0x77d7ac
-gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDTurnCheatsOnObjects1Objects = Hashtable.newFrom({"TurnCheatsOn": gdjs.CheatsMenuCode.GDTurnCheatsOnObjects1});gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDTurnCheatsOnObjects1Objects = Hashtable.newFrom({"TurnCheatsOn": gdjs.CheatsMenuCode.GDTurnCheatsOnObjects1});gdjs.CheatsMenuCode.eventsList0x9664cc = function(runtimeScene) {
+}; //End of gdjs.CheatsMenuCode.eventsList0x76f8a4
+gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDTurnCheatsOnObjects1Objects = Hashtable.newFrom({"TurnCheatsOn": gdjs.CheatsMenuCode.GDTurnCheatsOnObjects1});gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDTurnCheatsOnObjects1Objects = Hashtable.newFrom({"TurnCheatsOn": gdjs.CheatsMenuCode.GDTurnCheatsOnObjects1});gdjs.CheatsMenuCode.eventsList0x77004c = function(runtimeScene) {
 
 {
 
@@ -126,8 +126,8 @@ gdjs.CheatsMenuCode.mapOfGDgdjs_46CheatsMenuCode_46GDTurnCheatsOnObjects1Objects
 }
 
 
-}; //End of gdjs.CheatsMenuCode.eventsList0x9664cc
-gdjs.CheatsMenuCode.eventsList0x9decf4 = function(runtimeScene) {
+}; //End of gdjs.CheatsMenuCode.eventsList0x77004c
+gdjs.CheatsMenuCode.eventsList0x76fe74 = function(runtimeScene) {
 
 {
 
@@ -139,13 +139,13 @@ gdjs.CheatsMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 {runtimeScene.getGame().getVariables().getFromIndex(3).mul(-(1));
 }
 { //Subevents
-gdjs.CheatsMenuCode.eventsList0x9664cc(runtimeScene);} //End of subevents
+gdjs.CheatsMenuCode.eventsList0x77004c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.CheatsMenuCode.eventsList0x9decf4
+}; //End of gdjs.CheatsMenuCode.eventsList0x76fe74
 gdjs.CheatsMenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -211,7 +211,7 @@ gdjs.CheatsMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }
 }
 { //Subevents
-gdjs.CheatsMenuCode.eventsList0x77d7ac(runtimeScene);} //End of subevents
+gdjs.CheatsMenuCode.eventsList0x76f8a4(runtimeScene);} //End of subevents
 }
 
 }
@@ -248,7 +248,7 @@ gdjs.CheatsMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }
 }
 { //Subevents
-gdjs.CheatsMenuCode.eventsList0x9decf4(runtimeScene);} //End of subevents
+gdjs.CheatsMenuCode.eventsList0x76fe74(runtimeScene);} //End of subevents
 }
 
 }
